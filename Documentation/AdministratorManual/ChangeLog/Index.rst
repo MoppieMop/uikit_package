@@ -824,7 +824,7 @@ Information.
 |            | - [BUGFIX] Move temp folder back to root of typo3 temp                                                                                                                     |
 |            | - [BUGFIX] Remove double imagecols field in showitem configuration                                                                                                         |
 |            | - [BUGFIX] Workaround variable name cut off in CMS8 - fixes #388                                                                                                           |
-|            | - [BUGFIX] Use string to identify bootstrap_package for adding static template                                                                                             |
+|            | - [BUGFIX] Use string to identify uikit_package for adding static template                                                                                             |
 |            | - [BUGFIX] Allow non ID values for language fields to avoid errors on mysql strict mode                                                                                    |
 |            | - [BUGFIX] Correct sql definitions for bodytextfields for carousel, accordion and tab content element item                                                                 |
 |            | - [BUGFIX] Correct indention of sql definition                                                                                                                             |
@@ -1118,7 +1118,7 @@ Information.
 |            | - [TASK] Update TypoScript template mapping for backend layouts                                                                                                            |
 |            | - [TASK] Add update script to migrate old backend layout prefix to new prefix in table pages                                                                               |
 |            | - [TASK] Disable BackendLayoutDataProvider for TYPO3 versions below 7.4 and adapt registration to core provider prefix for PageTS                                          |
-|            | - [TASK] Move column labels for border, normal, left, right to bootstrap_package, files moved in CMS 7                                                                     |
+|            | - [TASK] Move column labels for border, normal, left, right to uikit_package, files moved in CMS 7                                                                     |
 |            | - [TASK] fix whitespaces                                                                                                                                                   |
 |            | - [TASK] Add 'active' class for shortcuts in sub navigation                                                                                                                |
 |            | - [BUGFIX] Use always $GLOBALS[TCA]                                                                                                                                        |
@@ -1318,7 +1318,7 @@ Information.
 |            | - Adjustments to skip to content - resolves #63                                                                                                                            |
 |            | - Add marker for current year. Move replacements directly to the fluidtempalte - fixes #72                                                                                 |
 |            | - Add missing alt and title attributes on noscript fallback for image rendering - fixes #77                                                                                |
-|            | - TASK: Skip to content Resolves https://github.com/benjaminkott/bootstrap_package/issues/63                                                                               |
+|            | - TASK: Skip to content Resolves https://github.com/benjaminkott/uikit_package/issues/63                                                                               |
 |            | - Update bootstrap css file for the backend to 3.3.0                                                                                                                       |
 |            | - Adjust gitignore                                                                                                                                                         |
 |            | - Remove the automatic appending icons for content links                                                                                                                   |
@@ -1402,10 +1402,10 @@ Information.
 |            | - Add link to the complete teaser item and fix the relations                                                                                                               |
 |            | - Fix typo                                                                                                                                                                 |
 |            | - Make it possible to enable backend skin if themes is loaded.                                                                                                             |
-|            | - Make bootstrap_package compatible with themes (part 2)                                                                                                                   |
+|            | - Make uikit_package compatible with themes (part 2)                                                                                                                   |
 |            | - Correct version number                                                                                                                                                   |
 |            | - Cleanup formatting                                                                                                                                                       |
-|            | - Make bootstrap_package compatible with themes (part 1)                                                                                                                   |
+|            | - Make uikit_package compatible with themes (part 1)                                                                                                                   |
 |            | - Correct types in constants                                                                                                                                               |
 |            | - Add TYPO3 version to sitename in backend header                                                                                                                          |
 |            | - Correct wizard registration                                                                                                                                              |

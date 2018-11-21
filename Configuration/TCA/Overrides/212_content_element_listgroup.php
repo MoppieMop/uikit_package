@@ -32,7 +32,7 @@ if (!is_array($GLOBALS['TCA']['tt_content']['types']['listgroup'])) {
     'tt_content',
     'CType',
     [
-        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.listgroup',
+        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:content_element.listgroup',
         'listgroup',
         'content-bootstrappackage-listgroup'
     ],

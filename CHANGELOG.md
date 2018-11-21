@@ -851,7 +851,7 @@
 - [BUGFIX] Move temp folder back to root of typo3 temp dd66961d
 - [BUGFIX] Remove double imagecols field in showitem configuration 485ab966
 - [BUGFIX] Workaround variable name cut off in CMS8 - fixes #388 b27d0173
-- [BUGFIX] Use string to identify bootstrap_package for adding static template ed63827f
+- [BUGFIX] Use string to identify uikit_package for adding static template ed63827f
 - [BUGFIX] Allow non ID values for language fields to avoid errors on mysql strict mode f46a6317
 - [BUGFIX] Correct sql definitions for bodytextfields for carousel, accordion and tab content element item 4b855079
 - [BUGFIX] Correct indention of sql definition 0645bb31
@@ -1170,7 +1170,7 @@
 - [TASK] Update TypoScript template mapping for backend layouts 5162b178
 - [TASK] Add update script to migrate old backend layout prefix to new prefix in table pages fe57d19c
 - [TASK] Disable BackendLayoutDataProvider for TYPO3 versions below 7.4 and adapt registration to core provider prefix for PageTS d467590b
-- [TASK] Move column labels for border, normal, left, right to bootstrap_package, files moved in CMS 7 b90c08db
+- [TASK] Move column labels for border, normal, left, right to uikit_package, files moved in CMS 7 b90c08db
 - [TASK] fix whitespaces 99c82668
 - [TASK] Add 'active' class for shortcuts in sub navigation eb23a66f
 
@@ -1430,7 +1430,7 @@
 - Adjustments to skip to content - resolves #63 f32ea4ae
 - Add marker for current year. Move replacements directly to the fluidtempalte - fixes #72 71163c16
 - Add missing alt and title attributes on noscript fallback for image rendering - fixes #77 706df22c
-- TASK: Skip to content Resolves https://github.com/benjaminkott/bootstrap_package/issues/63 e8214f8e
+- TASK: Skip to content Resolves https://github.com/benjaminkott/uikit_package/issues/63 e8214f8e
 - Update bootstrap css file for the backend to 3.3.0 e3c8ba0c
 - Adjust gitignore 6e317ce4
 - Remove the automatic appending icons for content links de9f8ca0
@@ -1519,10 +1519,10 @@
 - Add link to the complete teaser item and fix the relations 2967c55a
 - Fix typo dfa694ca
 - Make it possible to enable backend skin if themes is loaded. 2ef1c553
-- Make bootstrap_package compatible with themes (part 2) fdfa43af
+- Make uikit_package compatible with themes (part 2) fdfa43af
 - Correct version number 661886df
 - Cleanup formatting 1e422c8b
-- Make bootstrap_package compatible with themes (part 1) 77414e69
+- Make uikit_package compatible with themes (part 1) 77414e69
 - Correct types in constants a8879cda
 - Add TYPO3 version to sitename in backend header 55b24006
 - Correct wizard registration d97a9d43

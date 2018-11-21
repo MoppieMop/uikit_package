@@ -24,7 +24,7 @@ page.logo
 +-----------------------------------+---------------+-----------------------------------------------------------------------+
 | Property                          | Data Type     |                                                                       |
 +===================================+===============+=======================================================================+
-| file                              | string        | EXT:bootstrap_package/Resources/Public/Images/BootstrapPackage.png    |
+| file                              | string        | EXT:uikit_package/Resources/Public/Images/BootstrapPackage.png    |
 +-----------------------------------+---------------+-----------------------------------------------------------------------+
 | height                            | integer       | 60                                                                    |
 +-----------------------------------+---------------+-----------------------------------------------------------------------+
@@ -158,11 +158,11 @@ page.fluidtemplate
 +-----------------------------------+---------------+-----------------------------------------------------------------------+
 | Property                          | Data Type     |                                                                       |
 +===================================+===============+=======================================================================+
-| layoutRootPath                    | string        | EXT:bootstrap_package/Resources/Private/Layouts/Page/                 |
+| layoutRootPath                    | string        | EXT:uikit_package/Resources/Private/Layouts/Page/                 |
 +-----------------------------------+---------------+-----------------------------------------------------------------------+
-| partialRootPath                   | string        | EXT:bootstrap_package/Resources/Private/Partials/Page/                |
+| partialRootPath                   | string        | EXT:uikit_package/Resources/Private/Partials/Page/                |
 +-----------------------------------+---------------+-----------------------------------------------------------------------+
-| templateRootPath                  | string        | EXT:bootstrap_package/Resources/Private/Templates/Page/               |
+| templateRootPath                  | string        | EXT:uikit_package/Resources/Private/Templates/Page/               |
 +-----------------------------------+---------------+-----------------------------------------------------------------------+
 
 
@@ -172,11 +172,11 @@ page.includePath
 +-----------------------------------+---------------+-----------------------------------------------------------------------+
 | Property                          | Data Type     |                                                                       |
 +===================================+===============+=======================================================================+
-| css                               | string        | EXT:bootstrap_package/Resources/Public/Css/                           |
+| css                               | string        | EXT:uikit_package/Resources/Public/Css/                           |
 +-----------------------------------+---------------+-----------------------------------------------------------------------+
-| icons                             | string        | EXT:bootstrap_package/Resources/Public/Icons/                         |
+| icons                             | string        | EXT:uikit_package/Resources/Public/Icons/                         |
 +-----------------------------------+---------------+-----------------------------------------------------------------------+
-| javascript                        | string        | EXT:bootstrap_package/Resources/Public/JavaScript/                    |
+| javascript                        | string        | EXT:uikit_package/Resources/Public/JavaScript/                    |
 +-----------------------------------+---------------+-----------------------------------------------------------------------+
 
 
@@ -237,7 +237,7 @@ config
 +-----------------------------------+---------------+-----------------------------------------------------------------------+
 
 
-plugin.bootstrap_package.settings
+plugin.uikit_package.settings
 ---------------------------------
 
 +-----------------------------------+---------------+-----------------------------------------------------------------------+
@@ -249,15 +249,15 @@ plugin.bootstrap_package.settings
 +-----------------------------------+---------------+-----------------------------------------------------------------------+
 
 
-plugin.bootstrap_package_contentelements.view
+plugin.uikit_package_contentelements.view
 ---------------------------------------------
 
 +-----------------------------------+---------------+-----------------------------------------------------------------------+
 | Property                          | Data Type     |                                                                       |
 +===================================+===============+=======================================================================+
-| layoutRootPath                    | string        | EXT:bootstrap_package/Resources/Private/Layouts/ContentElements/      |
+| layoutRootPath                    | string        | EXT:uikit_package/Resources/Private/Layouts/ContentElements/      |
 +-----------------------------------+---------------+-----------------------------------------------------------------------+
-| partialRootPath                   | string        | EXT:bootstrap_package/Resources/Private/Partials/ContentElements/     |
+| partialRootPath                   | string        | EXT:uikit_package/Resources/Private/Partials/ContentElements/     |
 +-----------------------------------+---------------+-----------------------------------------------------------------------+
-| templateRootPath                  | string        | EXT:bootstrap_package/Resources/Private/Templates/ContentElements/    |
+| templateRootPath                  | string        | EXT:uikit_package/Resources/Private/Templates/ContentElements/    |
 +-----------------------------------+---------------+-----------------------------------------------------------------------+

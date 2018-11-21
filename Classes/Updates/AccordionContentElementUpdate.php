@@ -39,7 +39,7 @@ class AccordionContentElementUpdate extends \TYPO3\CMS\Install\Updates\AbstractU
         $elementCount = $queryBuilder->count('uid')
             ->from('tt_content')
             ->where(
-                $queryBuilder->expr()->eq('CType', $queryBuilder->createNamedParameter('bootstrap_package_accordion', \PDO::PARAM_STR))
+                $queryBuilder->expr()->eq('CType', $queryBuilder->createNamedParameter('uikit_package_accordion', \PDO::PARAM_STR))
             )
             ->execute()->fetchColumn(0);
         return (bool)$elementCount;
@@ -60,7 +60,7 @@ class AccordionContentElementUpdate extends \TYPO3\CMS\Install\Updates\AbstractU
         $statement = $queryBuilder->select('uid')
             ->from('tt_content')
             ->where(
-                $queryBuilder->expr()->eq('CType', $queryBuilder->createNamedParameter('bootstrap_package_accordion', \PDO::PARAM_STR))
+                $queryBuilder->expr()->eq('CType', $queryBuilder->createNamedParameter('uikit_package_accordion', \PDO::PARAM_STR))
             )
             ->execute();
         while ($record = $statement->fetch()) {

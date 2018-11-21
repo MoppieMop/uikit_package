@@ -26,7 +26,7 @@ class VersionToolbarItem
     public function addVersionInformation(SystemInformationToolbarItem $systemInformation)
     {
         $value = null;
-        $extensionDirectory = ExtensionManagementUtility::extPath('bootstrap_package');
+        $extensionDirectory = ExtensionManagementUtility::extPath('uikit_package');
 
         // Try to get current version from git
         if (file_exists($extensionDirectory . '.git')) {
@@ -48,7 +48,7 @@ class VersionToolbarItem
 
         // Fallback to version from extension manager
         if ($value === null) {
-            $value = ExtensionManagementUtility::getExtensionVersion('bootstrap_package');
+            $value = ExtensionManagementUtility::getExtensionVersion('uikit_package');
         }
 
         // Set system information entry

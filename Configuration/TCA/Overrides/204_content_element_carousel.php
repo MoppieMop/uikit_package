@@ -32,7 +32,7 @@ if (!is_array($GLOBALS['TCA']['tt_content']['types']['carousel'])) {
     'tt_content',
     'CType',
     [
-        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.carousel',
+        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:content_element.carousel',
         'carousel',
         'content-bootstrappackage-carousel'
     ],
@@ -56,8 +56,8 @@ $GLOBALS['TCA']['tt_content']['types']['carousel'] = array_replace_recursive(
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.headers;headers,
                 tx_bootstrappackage_carousel_item,
-            --div--;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel.options,
-                pi_flexform;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:advanced,
+            --div--;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel.options,
+                pi_flexform;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:advanced,
             --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.frames;frames,
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.appearanceLinks;appearanceLinks,
@@ -80,6 +80,6 @@ $GLOBALS['TCA']['tt_content']['types']['carousel'] = array_replace_recursive(
  */
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
     '*',
-    'FILE:EXT:bootstrap_package/Configuration/FlexForms/Carousel.xml',
+    'FILE:EXT:uikit_package/Configuration/FlexForms/Carousel.xml',
     'carousel'
 );

@@ -21,7 +21,7 @@ return [
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
         'cruser_id' => 'cruser_id',
-        'title' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:accordion_item',
+        'title' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:accordion_item',
         'delete' => 'deleted',
         'versioningWS' => true,
         'origUid' => 't3_origuid',
@@ -55,7 +55,7 @@ return [
                 header,
                 bodytext,
                 media,
-                --palette--;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:accordion_item.mediaposition;mediaposition,
+                --palette--;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:accordion_item.mediaposition;mediaposition,
                 --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.access,
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.visibility;visibility,
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.access;access,
@@ -87,7 +87,7 @@ return [
         ],
         'visibility' => [
             'showitem' => '
-                hidden;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:accordion_item
+                hidden;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:accordion_item
             '
         ],
         // hidden but needs to be included all the time, so sys_language_uid is set correctly
@@ -99,7 +99,7 @@ return [
     'columns' => [
         'tt_content' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:accordion_item.tt_content',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:accordion_item.tt_content',
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectSingle',
@@ -194,7 +194,7 @@ return [
         ],
         'header' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:accordion_item.header',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:accordion_item.header',
             'config' => [
                 'type' => 'input',
                 'size' => 50,
@@ -202,7 +202,7 @@ return [
             ],
         ],
         'bodytext' => [
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:accordion_item.bodytext',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:accordion_item.bodytext',
             'l10n_mode' => 'prefixLangTitle',
             'l10n_cat' => 'text',
             'config' => [
@@ -216,7 +216,7 @@ return [
         ],
         'media' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:accordion_item.media',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:accordion_item.media',
             'config' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig(
                 'media',
                 [
@@ -263,25 +263,25 @@ return [
         ],
         'mediaorient' => [
             'exclude' => 1,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:accordion_item.mediaorient',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:accordion_item.mediaorient',
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectSingle',
                 'items' => [
                     [
-                        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:accordion_item.mediaorient.left',
+                        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:accordion_item.mediaorient.left',
                         'left'
                     ],
                     [
-                        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:accordion_item.mediaorient.top',
+                        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:accordion_item.mediaorient.top',
                         'top'
                     ],
                     [
-                        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:accordion_item.mediaorient.right',
+                        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:accordion_item.mediaorient.right',
                         'right'
                     ],
                     [
-                        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:accordion_item.mediaorient.bottom',
+                        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:accordion_item.mediaorient.bottom',
                         'bottom'
                     ],
                 ],
@@ -291,7 +291,7 @@ return [
         ],
         'imagecols' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:accordion_item.imagecols',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:accordion_item.imagecols',
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectSingle',
@@ -327,7 +327,7 @@ return [
         ],
         'image_zoom' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:accordion_item.image_zoom',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:accordion_item.image_zoom',
             'config' => [
                 'type' => 'check',
                 'items' => [

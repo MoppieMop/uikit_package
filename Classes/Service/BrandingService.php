@@ -20,7 +20,7 @@ class BrandingService
     /**
      * @var string
      */
-    const EXT_KEY = 'bootstrap_package';
+    const EXT_KEY = 'uikit_package';
 
     /**
      * @param string $extension
@@ -34,13 +34,13 @@ class BrandingService
             $backendConfiguration = $extensionConfiguration->get('backend');
 
             if (!isset($backendConfiguration['loginLogo']) || empty(trim($backendConfiguration['loginLogo']))) {
-                $backendConfiguration['loginLogo'] = 'EXT:bootstrap_package/Resources/Public/Images/Backend/login-logo.svg';
+                $backendConfiguration['loginLogo'] = 'EXT:uikit_package/Resources/Public/Images/Backend/login-logo.svg';
             }
             if (!isset($backendConfiguration['loginBackgroundImage']) || empty(trim($backendConfiguration['loginBackgroundImage']))) {
-                $backendConfiguration['loginBackgroundImage'] = 'EXT:bootstrap_package/Resources/Public/Images/Backend/login-background-image.jpg';
+                $backendConfiguration['loginBackgroundImage'] = 'EXT:uikit_package/Resources/Public/Images/Backend/login-background-image.jpg';
             }
             if (!isset($backendConfiguration['backendLogo']) || empty(trim($backendConfiguration['backendLogo']))) {
-                $backendConfiguration['backendLogo'] = 'EXT:bootstrap_package/Resources/Public/Images/Backend/backend-logo.svg';
+                $backendConfiguration['backendLogo'] = 'EXT:uikit_package/Resources/Public/Images/Backend/backend-logo.svg';
             }
 
             $extensionConfiguration->set('backend', '', $backendConfiguration);

@@ -32,7 +32,7 @@ if (!is_array($GLOBALS['TCA']['tt_content']['types']['quote'])) {
     'tt_content',
     'CType',
     [
-        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.quote',
+        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:content_element.quote',
         'quote',
         'content-quote'
     ],
@@ -55,9 +55,9 @@ $GLOBALS['TCA']['tt_content']['types']['quote'] = array_replace_recursive(
             --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,
                 header;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header.ALT.div_formlabel,
-                quote_link;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:quote.link,
-                quote_source;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:quote.source,
-                bodytext;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:quote.text,
+                quote_link;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:quote.link,
+                quote_source;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:quote.source,
+                bodytext;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:quote.text,
             --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.frames;frames,
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.appearanceLinks;appearanceLinks,
@@ -82,7 +82,7 @@ $GLOBALS['TCA']['tt_content']['columns'] = array_replace_recursive(
     $GLOBALS['TCA']['tt_content']['columns'],
     [
         'quote_source' => [
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:quote.source',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:quote.source',
             'config' => [
                 'type' => 'input',
                 'size' => 50,
@@ -91,7 +91,7 @@ $GLOBALS['TCA']['tt_content']['columns'] = array_replace_recursive(
         ],
         'quote_link' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:quote.link',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:quote.link',
             'config' => [
                 'type' => 'input',
                 'renderType' => 'inputLink',
@@ -101,7 +101,7 @@ $GLOBALS['TCA']['tt_content']['columns'] = array_replace_recursive(
                 'fieldControl' => [
                     'linkPopup' => [
                         'options' => [
-                            'title' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:quote.link',
+                            'title' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:quote.link',
                         ],
                     ],
                 ],

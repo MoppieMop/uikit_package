@@ -101,7 +101,7 @@ class CompileService
         }
 
         // Fetch SCSS / Less settings
-        $prefix = 'plugin.bootstrap_package.settings.' . $extension . '.';
+        $prefix = 'plugin.uikit_package.settings.' . $extension . '.';
         foreach ($constants as $constant => $value) {
             if (strpos($constant, $prefix) === 0) {
                 $variables[substr($constant, strlen($prefix))] = $value;

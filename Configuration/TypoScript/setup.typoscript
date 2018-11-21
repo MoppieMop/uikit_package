@@ -1,32 +1,32 @@
 ######################
 #### DEPENDENCIES ####
 ######################
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/ContentElement/setup.typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:uikit_package/Configuration/TypoScript/ContentElement/setup.typoscript">
 
 
 ################
 #### HELPER ####
 ################
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/Helper/ParseFunc.typoscript">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/Helper/Block.typoscript">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/Helper/DynamicContent.typoscript">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/Helper/FrontendEditing.typoscript">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/Helper/PageClass.typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:uikit_package/Configuration/TypoScript/Helper/ParseFunc.typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:uikit_package/Configuration/TypoScript/Helper/Block.typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:uikit_package/Configuration/TypoScript/Helper/DynamicContent.typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:uikit_package/Configuration/TypoScript/Helper/FrontendEditing.typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:uikit_package/Configuration/TypoScript/Helper/PageClass.typoscript">
 
 
 #############################################################
 #### EXTENSIONS                                          ####
 #### Manual inclusion to keep control over loading order ####
 #############################################################
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/Extension/Form/setup.typoscript" condition="userFunc = TYPO3\\CMS\\Core\\Utility\\ExtensionManagementUtility::isLoaded('form')">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/Extension/FrontendLogin/setup.typoscript" condition="userFunc = TYPO3\\CMS\\Core\\Utility\\ExtensionManagementUtility::isLoaded('felogin')">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/Extension/IndexedSearch/setup.typoscript" condition="userFunc = TYPO3\\CMS\\Core\\Utility\\ExtensionManagementUtility::isLoaded('indexed_search')">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:uikit_package/Configuration/TypoScript/Extension/Form/setup.typoscript" condition="userFunc = TYPO3\\CMS\\Core\\Utility\\ExtensionManagementUtility::isLoaded('form')">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:uikit_package/Configuration/TypoScript/Extension/FrontendLogin/setup.typoscript" condition="userFunc = TYPO3\\CMS\\Core\\Utility\\ExtensionManagementUtility::isLoaded('felogin')">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:uikit_package/Configuration/TypoScript/Extension/IndexedSearch/setup.typoscript" condition="userFunc = TYPO3\\CMS\\Core\\Utility\\ExtensionManagementUtility::isLoaded('indexed_search')">
 
 
 ###################
 #### FRAMEWORK ####
 ###################
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/Bootstrap4/setup.typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:uikit_package/Configuration/TypoScript/Bootstrap4/setup.typoscript">
 
 
 ###################################
@@ -34,8 +34,8 @@
 ###################################
 plugin.tx_bootstrappackage {
     settings {
-        overrideParserVariables = {$plugin.bootstrap_package.settings.overrideParserVariables}
-        cssSourceMapping = {$plugin.bootstrap_package.settings.cssSourceMapping}
+        overrideParserVariables = {$plugin.uikit_package.settings.overrideParserVariables}
+        cssSourceMapping = {$plugin.uikit_package.settings.cssSourceMapping}
     }
 }
 
@@ -113,15 +113,15 @@ page {
         }
 
         templateRootPaths {
-            0 = EXT:bootstrap_package/Resources/Private/Templates/Page/
+            0 = EXT:uikit_package/Resources/Private/Templates/Page/
             1 = {$page.fluidtemplate.templateRootPath}
         }
         partialRootPaths {
-            0 = EXT:bootstrap_package/Resources/Private/Partials/Page/
+            0 = EXT:uikit_package/Resources/Private/Partials/Page/
             1 = {$page.fluidtemplate.partialRootPath}
         }
         layoutRootPaths {
-            0 = EXT:bootstrap_package/Resources/Private/Layouts/Page/
+            0 = EXT:uikit_package/Resources/Private/Layouts/Page/
             1 = {$page.fluidtemplate.layoutRootPath}
         }
 
@@ -381,7 +381,7 @@ page {
                 isTrue = {$page.theme.googleFont.enable}
             }
         }
-        bootstrappackageicon = EXT:bootstrap_package/Resources/Public/Fonts/bootstrappackageicon.min.css
+        bootstrappackageicon = EXT:uikit_package/Resources/Public/Fonts/bootstrappackageicon.min.css
         bootstrappackageicon {
             fontLoader {
                 families {
@@ -393,27 +393,27 @@ page {
     }
 
     includeJSLibs {
-        modernizr = EXT:bootstrap_package/Resources/Public/Contrib/modernizr/modernizr.min.js
+        modernizr = EXT:uikit_package/Resources/Public/Contrib/modernizr/modernizr.min.js
         modernizr.forceOnTop = 1
         modernizr.async = 1
     }
 
     includeJSFooterlibs {
         #### Contrib
-        jquery = EXT:bootstrap_package/Resources/Public/Contrib/jquery/jquery.min.js
+        jquery = EXT:uikit_package/Resources/Public/Contrib/jquery/jquery.min.js
         jquery.forceOnTop = 1
-        hammerjs = EXT:bootstrap_package/Resources/Public/Contrib/hammerjs/hammer.min.js
-        photoswipe_core = EXT:bootstrap_package/Resources/Public/Contrib/photoswipe/photoswipe.min.js
-        photoswipe_ui = EXT:bootstrap_package/Resources/Public/Contrib/photoswipe/photoswipe-ui-default.min.js
+        hammerjs = EXT:uikit_package/Resources/Public/Contrib/hammerjs/hammer.min.js
+        photoswipe_core = EXT:uikit_package/Resources/Public/Contrib/photoswipe/photoswipe.min.js
+        photoswipe_ui = EXT:uikit_package/Resources/Public/Contrib/photoswipe/photoswipe-ui-default.min.js
 
         #### Custom Modules
-        bootstrap_form = EXT:bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.form.min.js
-        bootstrap_swipe = EXT:bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.swipe.min.js
-        bootstrap_popover = EXT:bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.popover.min.js
-        bootstrap_stickyheader = EXT:bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.stickyheader.min.js
-        bootstrap_smoothscroll = EXT:bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.smoothscroll.min.js
-        bootstrap_lightbox = EXT:bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.lightbox.min.js
-        bootstrap_navbar = EXT:bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.navbar.min.js
+        bootstrap_form = EXT:uikit_package/Resources/Public/JavaScript/Dist/bootstrap.form.min.js
+        bootstrap_swipe = EXT:uikit_package/Resources/Public/JavaScript/Dist/bootstrap.swipe.min.js
+        bootstrap_popover = EXT:uikit_package/Resources/Public/JavaScript/Dist/bootstrap.popover.min.js
+        bootstrap_stickyheader = EXT:uikit_package/Resources/Public/JavaScript/Dist/bootstrap.stickyheader.min.js
+        bootstrap_smoothscroll = EXT:uikit_package/Resources/Public/JavaScript/Dist/bootstrap.smoothscroll.min.js
+        bootstrap_lightbox = EXT:uikit_package/Resources/Public/JavaScript/Dist/bootstrap.lightbox.min.js
+        bootstrap_navbar = EXT:uikit_package/Resources/Public/JavaScript/Dist/bootstrap.navbar.min.js
     }
 }
 
@@ -499,8 +499,8 @@ page {
 [globalVar = LIT:1 = {$page.theme.cookieconsent.enable}]
     page {
         includeJSFooterlibs {
-            contrib_cookieconsent = EXT:bootstrap_package/Resources/Public/Contrib/cookieconsent/cookieconsent.min.js
-            bootstrap_cookieconsent = EXT:bootstrap_package/Resources/Public/JavaScript/Dist/jquery.cookieconsent.min.js
+            contrib_cookieconsent = EXT:uikit_package/Resources/Public/Contrib/cookieconsent/cookieconsent.min.js
+            bootstrap_cookieconsent = EXT:uikit_package/Resources/Public/JavaScript/Dist/jquery.cookieconsent.min.js
         }
     }
 [end]

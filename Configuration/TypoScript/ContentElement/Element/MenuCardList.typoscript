@@ -26,7 +26,7 @@ tt_content.menu_card_list {
                 10 {
                     references.fieldName = thumbnail
                     if {
-                        isTrue = {$plugin.bootstrap_package_contentelements.menu_card.thumbnail.enable}
+                        isTrue = {$plugin.uikit_package_contentelements.menu_card.thumbnail.enable}
                     }
                 }
                 20 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
@@ -34,7 +34,7 @@ tt_content.menu_card_list {
                     references.fieldName = nav_icon
                     as = icon
                     if {
-                        isTrue = {$plugin.bootstrap_package_contentelements.menu_card.icon.enable}
+                        isTrue = {$plugin.uikit_package_contentelements.menu_card.icon.enable}
                     }
                 }
             }

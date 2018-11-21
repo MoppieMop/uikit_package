@@ -103,7 +103,7 @@ Bug reporting
 
 Please open an `issue here at github`__ and describe your problem.
 
-__ https://github.com/benjaminkott/bootstrap_package/issues
+__ https://github.com/benjaminkott/uikit_package/issues
 
 License
 -------
@@ -135,10 +135,10 @@ Send a tweet `@benjaminkott <https://twitter.com/benjaminkott>`_.
 
 Code Quality
 ============
-.. image:: https://travis-ci.org/benjaminkott/bootstrap_package.svg?branch=master
+.. image:: https://travis-ci.org/benjaminkott/uikit_package.svg?branch=master
    :alt: Build Status
-   :target: https://travis-ci.org/benjaminkott/bootstrap_package
+   :target: https://travis-ci.org/benjaminkott/uikit_package
 
-.. image:: https://scrutinizer-ci.com/g/benjaminkott/bootstrap_package/badges/quality-score.png?b=master
+.. image:: https://scrutinizer-ci.com/g/benjaminkott/uikit_package/badges/quality-score.png?b=master
    :alt: Scrutinizer Code Quality
-   :target: https://scrutinizer-ci.com/g/benjaminkott/bootstrap_package/?branch=master
+   :target: https://scrutinizer-ci.com/g/benjaminkott/uikit_package/?branch=master

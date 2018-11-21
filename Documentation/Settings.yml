@@ -19,6 +19,6 @@ conf.py:
     pointsize: 10pt
     preamble: \usepackage{typo3}
   html_theme_options:
-    github_repository: benjaminkott/bootstrap_package
+    github_repository: benjaminkott/uikit_package
     github_branch: master
 ...

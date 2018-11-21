@@ -102,11 +102,11 @@ class TexticonIconUpdate extends \TYPO3\CMS\Install\Updates\AbstractUpdate
                 )
                 ->set(
                     'icon_set',
-                    'EXT:bootstrap_package/Resources/Public/Images/Icons/' . $icon[0] . '/'
+                    'EXT:uikit_package/Resources/Public/Images/Icons/' . $icon[0] . '/'
                 )
                 ->set(
                     $this->field,
-                    'EXT:bootstrap_package/Resources/Public/Images/Icons/' . $icon[0] . '/' . $icon[1] . '.svg'
+                    'EXT:uikit_package/Resources/Public/Images/Icons/' . $icon[0] . '/' . $icon[1] . '.svg'
                 );
             $databaseQueries[] = $queryBuilder->getSQL();
             $queryBuilder->execute();

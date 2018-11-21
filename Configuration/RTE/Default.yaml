@@ -6,18 +6,18 @@ imports:
 editor:
     externalPlugins:
         bootstrappackage_address:
-            resource: "EXT:bootstrap_package/Resources/Public/CKEditor/Plugins/Address/plugin.min.js"
+            resource: "EXT:uikit_package/Resources/Public/CKEditor/Plugins/Address/plugin.min.js"
         bootstrappackage_box:
-            resource: "EXT:bootstrap_package/Resources/Public/CKEditor/Plugins/Box/plugin.min.js"
+            resource: "EXT:uikit_package/Resources/Public/CKEditor/Plugins/Box/plugin.min.js"
         bootstrappackage_columns:
-            resource: "EXT:bootstrap_package/Resources/Public/CKEditor/Plugins/Columns/plugin.min.js"
+            resource: "EXT:uikit_package/Resources/Public/CKEditor/Plugins/Columns/plugin.min.js"
         bootstrappackage_indent:
-            resource: "EXT:bootstrap_package/Resources/Public/CKEditor/Plugins/Indent/plugin.min.js"
+            resource: "EXT:uikit_package/Resources/Public/CKEditor/Plugins/Indent/plugin.min.js"
         bootstrappackage_table:
-            resource: "EXT:bootstrap_package/Resources/Public/CKEditor/Plugins/Table/plugin.min.js"
+            resource: "EXT:uikit_package/Resources/Public/CKEditor/Plugins/Table/plugin.min.js"
 
     config:
-        contentsCss: "EXT:bootstrap_package/Resources/Public/Css/bootstrap4-rte.min.css"
+        contentsCss: "EXT:uikit_package/Resources/Public/Css/bootstrap4-rte.min.css"
 
         stylesSet:
             - { name: "Lead", element: "p", attributes: { 'class': 'lead' } }

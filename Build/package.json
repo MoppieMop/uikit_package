@@ -1,7 +1,7 @@
 {
   "name": "bk2k-bootstrappackage",
   "description": "Bootstrap Package delivers a full configured frontend for TYPO3 CMS, based on the Bootstrap CSS Framework.",
-  "repository": "https://github.com/benjaminkott/bootstrap_package.git",
+  "repository": "https://github.com/benjaminkott/uikit_package.git",
   "readme": "../README.rst",
   "homepage": "http://www.bk2k.info",
   "author": "Benjamin Kott",

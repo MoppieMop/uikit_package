@@ -15,7 +15,7 @@ defined('TYPO3_MODE') || die();
 $GLOBALS['TCA']['tt_content']['columns']['background_color_class'] = [
     'exclude' => true,
     'displayCond' => 'FIELD:frame_class:!=:none',
-    'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.background_color_class',
+    'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:field.background_color_class',
     'config' => [
         'type' => 'select',
         'renderType' => 'selectSingle',
@@ -32,7 +32,7 @@ $GLOBALS['TCA']['tt_content']['columns']['background_color_class'] = [
 $GLOBALS['TCA']['tt_content']['columns']['background_image'] = [
     'exclude' => true,
     'displayCond' => 'FIELD:frame_class:!=:none',
-    'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.background_image',
+    'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:field.background_image',
     'config' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig(
         'background_image',
         [
@@ -84,18 +84,18 @@ $GLOBALS['TCA']['tt_content']['columns']['background_image'] = [
 $GLOBALS['TCA']['tt_content']['columns']['background_image_options'] = [
     'exclude' => true,
     'displayCond' => 'FIELD:frame_class:!=:none',
-    'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.background_image_options',
+    'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:field.background_image_options',
     'config' => [
         'type' => 'flex',
         'ds' => [
-            'default' => 'FILE:EXT:bootstrap_package/Configuration/FlexForms/BackgroundImage.xml',
+            'default' => 'FILE:EXT:uikit_package/Configuration/FlexForms/BackgroundImage.xml',
         ],
     ],
     'l10n_mode' => 'exclude',
 ];
 $GLOBALS['TCA']['tt_content']['columns']['readmore_label'] = [
     'exclude' => true,
-    'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.readmore_label',
+    'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:field.readmore_label',
     'config' => [
         'type' => 'input',
         'eval' => 'trim',
@@ -104,7 +104,7 @@ $GLOBALS['TCA']['tt_content']['columns']['readmore_label'] = [
     ]
 ];
 $GLOBALS['TCA']['tt_content']['columns']['teaser'] = [
-    'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.teaser',
+    'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:field.teaser',
     'exclude' => true,
     'config' => [
         'type' => 'text',
@@ -114,7 +114,7 @@ $GLOBALS['TCA']['tt_content']['columns']['teaser'] = [
     ]
 ];
 $GLOBALS['TCA']['tt_content']['columns']['tx_bootstrappackage_carousel_item'] = [
-    'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item',
+    'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item',
     'config' => [
         'type' => 'inline',
         'foreign_table' => 'tx_bootstrappackage_carousel_item',
@@ -138,7 +138,7 @@ $GLOBALS['TCA']['tt_content']['columns']['tx_bootstrappackage_carousel_item'] = 
 ];
 $GLOBALS['TCA']['tt_content']['columns']['file_folder'] = [
     'exclude' => true,
-    'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.file_folder',
+    'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:field.file_folder',
     'config' => [
         'type' => 'group',
         'internal_type' => 'folder',
@@ -152,7 +152,7 @@ $GLOBALS['TCA']['tt_content']['columns']['file_folder'] = [
     'tt_content',
     'imageorient',
     [
-        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.imageorient.125',
+        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:field.imageorient.125',
         (string) 125,
         'content-bootstrappackage-beside-text-img-centered-right'
     ],
@@ -163,7 +163,7 @@ $GLOBALS['TCA']['tt_content']['columns']['file_folder'] = [
     'tt_content',
     'imageorient',
     [
-        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.imageorient.126',
+        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:field.imageorient.126',
         (string) 126,
         'content-bootstrappackage-beside-text-img-centered-left'
     ],

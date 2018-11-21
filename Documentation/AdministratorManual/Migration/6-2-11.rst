@@ -66,7 +66,7 @@ Drop version number for jQuery in filename
 ==========================================
 
 Previously we appended the version number to the jQuery filename, this has lead
-to missing jQuery versions if files were moved outside the bootstrap_package.
+to missing jQuery versions if files were moved outside the uikit_package.
 We are not removing the version number to prevent jQuery is missing, this makes
 it also more easy to maintain in the build process. Check your TypoScript setup
 for possible overrides.
@@ -183,14 +183,14 @@ Before
 
 .. code-block:: html
 
-    EXT:bootstrap_package/Resources/Private/Less/
+    EXT:uikit_package/Resources/Private/Less/
 
 After
 ------
 
 .. code-block:: html
 
-    EXT:bootstrap_package/Resources/Public/Less/
+    EXT:uikit_package/Resources/Public/Less/
 
 
 
@@ -209,9 +209,9 @@ Before
 
 .. code-block:: typoscript
 
-    plugin.bootstrap_package {
+    plugin.uikit_package {
         settings.less {
-            icon-font-path = "../../../../../typo3conf/ext/bootstrap_package/Resources/Public/Fonts/"
+            icon-font-path = "../../../../../typo3conf/ext/uikit_package/Resources/Public/Fonts/"
         }
     }
 
@@ -222,7 +222,7 @@ After
 
 .. code-block:: typoscript
 
-    plugin.bootstrap_package {
+    plugin.uikit_package {
         settings.less {
             icon-font-path = "../../Fonts/"
         }
@@ -251,9 +251,9 @@ Before
             key.data = levelfield:-1, backend_layout_next_level, slide
             key.override.field = backend_layout
 
-            bootstrap_package__default_clean = TEXT
-            bootstrap_package__default_clean.value = {$page.fluidtemplate.templateRootPath}DefaultClean.html
-            bootstrap_package__default_clean.insertData = 1
+            uikit_package__default_clean = TEXT
+            uikit_package__default_clean.value = {$page.fluidtemplate.templateRootPath}DefaultClean.html
+            uikit_package__default_clean.insertData = 1
 
             ...
 
@@ -277,22 +277,22 @@ After
             key.data = levelfield:-1, backend_layout_next_level, slide
             key.override.field = backend_layout
 
-            bootstrap_package__default_clean = TEXT
-            bootstrap_package__default_clean.value = DefaultClean
+            uikit_package__default_clean = TEXT
+            uikit_package__default_clean.value = DefaultClean
 
             ...
 
         }
         templateRootPaths {
-            0 = EXT:bootstrap_package/Resources/Private/Templates/Page/
+            0 = EXT:uikit_package/Resources/Private/Templates/Page/
             1 = {$page.fluidtemplate.templateRootPath}
         }
         partialRootPaths {
-            0 = EXT:bootstrap_package/Resources/Private/Partials/Page/
+            0 = EXT:uikit_package/Resources/Private/Partials/Page/
             1 = {$page.fluidtemplate.partialRootPath}
         }
         layoutRootPaths {
-            0 = EXT:bootstrap_package/Resources/Private/Layouts/Page/
+            0 = EXT:uikit_package/Resources/Private/Layouts/Page/
             1 = {$page.fluidtemplate.layoutRootPath}
         }
     }
@@ -310,15 +310,15 @@ use the alternatives instead.
 
 .. code-block:: bash
 
-    bootstrap_package__default_subnavigation
-    bootstrap_package__default_subnavigation_2_columns
+    uikit_package__default_subnavigation
+    uikit_package__default_subnavigation_2_columns
 
 **Alternatives Templates**
 
 .. code-block:: bash
 
-    bootstrap_package__default_subnavigation_right
-    bootstrap_package__default_subnavigation_right_2_columns
+    uikit_package__default_subnavigation_right
+    uikit_package__default_subnavigation_right_2_columns
 
 
 

@@ -12,7 +12,7 @@ defined('TYPO3_MODE') || die();
 /***************
  * Temporary variables
  */
-$extensionKey = 'bootstrap_package';
+$extensionKey = 'uikit_package';
 
 /***************
  * Register PageTS
@@ -59,7 +59,7 @@ $GLOBALS['TCA']['pages']['columns'] = array_replace_recursive(
     [
         'nav_icon' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:pages.nav_icon',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:pages.nav_icon',
             'config' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig(
                 'nav_icon',
                 [
@@ -108,7 +108,7 @@ $GLOBALS['TCA']['pages']['columns'] = array_replace_recursive(
         ],
         'thumbnail' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:pages.thumbnail',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:pages.thumbnail',
             'config' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig(
                 'thumbnail',
                 [

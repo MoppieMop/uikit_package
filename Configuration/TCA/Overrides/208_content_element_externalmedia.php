@@ -32,7 +32,7 @@ if (!is_array($GLOBALS['TCA']['tt_content']['types']['external_media'])) {
     'tt_content',
     'CType',
     [
-        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.external_media',
+        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:content_element.external_media',
         'external_media',
         'content-bootstrappackage-externalmedia'
     ],
@@ -55,7 +55,7 @@ $GLOBALS['TCA']['tt_content']['types']['external_media'] = array_replace_recursi
             --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.headers;headers,
-                --palette--;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.palette.external_media;external_media,
+                --palette--;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:field.palette.external_media;external_media,
             --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.frames;frames,
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.appearanceLinks;appearanceLinks,
@@ -80,7 +80,7 @@ $GLOBALS['TCA']['tt_content']['columns'] = array_replace_recursive(
     $GLOBALS['TCA']['tt_content']['columns'],
     [
         'external_media_source' => [
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.external_media_source',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:field.external_media_source',
             'config' => [
                 'type' => 'input',
                 'size' => 50,
@@ -89,7 +89,7 @@ $GLOBALS['TCA']['tt_content']['columns'] = array_replace_recursive(
             ]
         ],
         'external_media_ratio' => [
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.external_media_ratio',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:field.external_media_ratio',
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectSingle',

@@ -32,7 +32,7 @@ if (!is_array($GLOBALS['TCA']['tt_content']['types']['media'])) {
     'tt_content',
     'CType',
     [
-        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.media',
+        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:content_element.media',
         'media',
         'mimetypes-x-content-multimedia'
     ],

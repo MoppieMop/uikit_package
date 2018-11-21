@@ -7,13 +7,13 @@
         <sDEF>
             <ROOT>
                 <TCEforms>
-                    <sheetTitle>LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:settings</sheetTitle>
+                    <sheetTitle>LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:settings</sheetTitle>
                 </TCEforms>
                 <type>array</type>
                 <el>
                     <default_element>
                         <TCEforms>
-                            <label>LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:accordion.default_element
+                            <label>LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:accordion.default_element
                             </label>
                             <config>
                                 <type>select</type>

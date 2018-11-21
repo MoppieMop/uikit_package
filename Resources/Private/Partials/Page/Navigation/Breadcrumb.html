@@ -3,7 +3,7 @@
     <f:if condition="{breadcrumb}">
         <nav class="breadcrumb-section" aria-label="breadcrumb">
             <div class="container">
-                <p class="sr-only" id="breadcrumb">{f:translate(key: 'breadcrumb', extensionName: 'bootstrap_package')}</p>
+                <p class="sr-only" id="breadcrumb">{f:translate(key: 'breadcrumb', extensionName: 'uikit_package')}</p>
                 <ol class="breadcrumb">
                     <f:for each="{breadcrumb}" as="item">
                         <li class="breadcrumb-item{f:if(condition: item.current, then: ' active')}"{f:if(condition: item.current, then: ' aria-current="page"')}>

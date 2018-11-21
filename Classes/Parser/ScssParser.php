@@ -26,7 +26,7 @@ class ScssParser extends AbstractParser
     public function __construct()
     {
         if (!class_exists('Leafo\ScssPhp\Version', false)) {
-            require_once ExtensionManagementUtility::extPath('bootstrap_package') . '/Contrib/scssphp/scss.inc.php';
+            require_once ExtensionManagementUtility::extPath('uikit_package') . '/Contrib/scssphp/scss.inc.php';
         }
     }
 

@@ -21,11 +21,11 @@ if (class_exists(\TYPO3\CMS\Core\Configuration\ExtensionConfiguration::class)) {
     $extensionConfiguration = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(
         \TYPO3\CMS\Core\Configuration\ExtensionConfiguration::class
     );
-    $bootstrapPackageConfiguration = $extensionConfiguration->get('bootstrap_package');
+    $bootstrapPackageConfiguration = $extensionConfiguration->get('uikit_package');
 } else {
     // Fallback for CMS8
     // @extensionScannerIgnoreLine
-    $bootstrapPackageConfiguration = $GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf']['bootstrap_package'];
+    $bootstrapPackageConfiguration = $GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf']['uikit_package'];
     if (!is_array($bootstrapPackageConfiguration)) {
         $bootstrapPackageConfiguration = unserialize($bootstrapPackageConfiguration);
     }
@@ -67,14 +67,14 @@ if (!$bootstrapPackageConfiguration['disablePageTsTCEFORM']) {
     module.tx_form {
         settings {
             yamlConfigurations {
-                110 = EXT:bootstrap_package/Configuration/Form/Setup.yaml
+                110 = EXT:uikit_package/Configuration/Form/Setup.yaml
             }
         }
     }
     plugin.tx_form {
         settings {
             yamlConfigurations {
-                110 = EXT:bootstrap_package/Configuration/Form/Setup.yaml
+                110 = EXT:uikit_package/Configuration/Form/Setup.yaml
             }
         }
     }
@@ -147,7 +147,7 @@ $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['t3lib/class.t3lib_pagerenderer.php'][
 /***************
  * Add default RTE configuration for bootstrap package
  */
-$GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets']['bootstrap'] = 'EXT:bootstrap_package/Configuration/RTE/Default.yaml';
+$GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets']['bootstrap'] = 'EXT:uikit_package/Configuration/RTE/Default.yaml';
 
 /***************
  * Extend TYPO3 upgrade wizards to handle boostrap package specific upgrades
@@ -201,7 +201,7 @@ $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\
 $iconRegistry->registerIcon(
     'systeminformation-bootstrappackage',
     \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-    ['source' => 'EXT:bootstrap_package/Resources/Public/Icons/SystemInformation/bootstrappackage.svg']
+    ['source' => 'EXT:uikit_package/Resources/Public/Icons/SystemInformation/bootstrappackage.svg']
 );
 $icons = [
     'accordion',
@@ -235,7 +235,7 @@ foreach ($icons as $icon) {
     $iconRegistry->registerIcon(
         'content-bootstrappackage-' . $icon,
         \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-        ['source' => 'EXT:bootstrap_package/Resources/Public/Icons/ContentElements/' . $icon . '.svg']
+        ['source' => 'EXT:uikit_package/Resources/Public/Icons/ContentElements/' . $icon . '.svg']
     );
 }
 
@@ -251,15 +251,15 @@ if (TYPO3_MODE === 'BE' && !class_exists(\TYPO3\CMS\Core\Configuration\Extension
     }
     // Login Logo
     if (!isset($backendConfiguration['loginLogo']) || empty(trim($backendConfiguration['loginLogo']))) {
-        $backendConfiguration['loginLogo'] = 'EXT:bootstrap_package/Resources/Public/Images/Backend/login-logo.svg';
+        $backendConfiguration['loginLogo'] = 'EXT:uikit_package/Resources/Public/Images/Backend/login-logo.svg';
     }
     // Login Background
     if (!isset($backendConfiguration['loginBackgroundImage']) || empty(trim($backendConfiguration['loginBackgroundImage']))) {
-        $backendConfiguration['loginBackgroundImage'] = 'EXT:bootstrap_package/Resources/Public/Images/Backend/login-background-image.jpg';
+        $backendConfiguration['loginBackgroundImage'] = 'EXT:uikit_package/Resources/Public/Images/Backend/login-background-image.jpg';
     }
     // Backend Logo
     if (!isset($backendConfiguration['backendLogo']) || empty(trim($backendConfiguration['backendLogo']))) {
-        $backendConfiguration['backendLogo'] = 'EXT:bootstrap_package/Resources/Public/Images/Backend/backend-logo.svg';
+        $backendConfiguration['backendLogo'] = 'EXT:uikit_package/Resources/Public/Images/Backend/backend-logo.svg';
     }
     $GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf']['backend'] = serialize($backendConfiguration);
 }

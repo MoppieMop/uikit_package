@@ -32,7 +32,7 @@ if (!is_array($GLOBALS['TCA']['tt_content']['types']['tab'])) {
     'tt_content',
     'CType',
     [
-        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.tab',
+        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:content_element.tab',
         'tab',
         'content-bootstrappackage-tab'
     ],
@@ -56,8 +56,8 @@ $GLOBALS['TCA']['tt_content']['types']['tab'] = array_replace_recursive(
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.headers;headers,
                 tx_bootstrappackage_tab_item,
-            --div--;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:tab.options,
-                pi_flexform;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:advanced,
+            --div--;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:tab.options,
+                pi_flexform;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:advanced,
             --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.frames;frames,
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.appearanceLinks;appearanceLinks,
@@ -82,7 +82,7 @@ $GLOBALS['TCA']['tt_content']['columns'] = array_replace_recursive(
     $GLOBALS['TCA']['tt_content']['columns'],
     [
         'tx_bootstrappackage_tab_item' => [
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:tab_item',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:tab_item',
             'config' => [
                 'type' => 'inline',
                 'foreign_table' => 'tx_bootstrappackage_tab_item',
@@ -112,6 +112,6 @@ $GLOBALS['TCA']['tt_content']['columns'] = array_replace_recursive(
  */
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
     '*',
-    'FILE:EXT:bootstrap_package/Configuration/FlexForms/Tab.xml',
+    'FILE:EXT:uikit_package/Configuration/FlexForms/Tab.xml',
     'tab'
 );

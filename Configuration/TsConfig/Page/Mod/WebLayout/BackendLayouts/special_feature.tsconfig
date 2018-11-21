@@ -5,7 +5,7 @@ mod {
     web_layout {
         BackendLayouts {
             special_feature {
-                title = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:backend_layout.special_feature
+                title = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:backend_layout.special_feature
                 config {
                     backend_layout {
                         colCount = 12
@@ -14,7 +14,7 @@ mod {
                             1 {
                                 columns {
                                     1 {
-                                        name = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:backend_layout.column.border
+                                        name = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:backend_layout.column.border
                                         colPos = 3
                                         colspan = 12
                                     }
@@ -23,7 +23,7 @@ mod {
                             2 {
                                 columns {
                                     1 {
-                                        name = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:backend_layout.column.contentbefore
+                                        name = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:backend_layout.column.contentbefore
                                         colPos = 8
                                         colspan = 12
                                     }
@@ -32,7 +32,7 @@ mod {
                             3 {
                                 columns {
                                     1 {
-                                        name = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:backend_layout.column.normal
+                                        name = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:backend_layout.column.normal
                                         colPos = 0
                                         colspan = 12
                                     }
@@ -41,12 +41,12 @@ mod {
                             4 {
                                 columns {
                                     1 {
-                                        name = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:backend_layout.column.special1
+                                        name = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:backend_layout.column.special1
                                         colPos = 30
                                         colspan = 6
                                     }
                                     2 {
-                                        name = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:backend_layout.column.special2
+                                        name = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:backend_layout.column.special2
                                         colPos = 31
                                         colspan = 6
                                     }
@@ -55,12 +55,12 @@ mod {
                             5 {
                                 columns {
                                     1 {
-                                        name = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:backend_layout.column.special3
+                                        name = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:backend_layout.column.special3
                                         colPos = 32
                                         colspan = 6
                                     }
                                     2 {
-                                        name = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:backend_layout.column.special4
+                                        name = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:backend_layout.column.special4
                                         colPos = 33
                                         colspan = 6
                                     }
@@ -69,7 +69,7 @@ mod {
                             6 {
                                 columns {
                                     1 {
-                                        name = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:backend_layout.column.main2
+                                        name = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:backend_layout.column.main2
                                         colPos = 4
                                         colspan = 12
                                     }
@@ -78,12 +78,12 @@ mod {
                             7 {
                                 columns {
                                     1 {
-                                        name = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:backend_layout.column.special5
+                                        name = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:backend_layout.column.special5
                                         colPos = 34
                                         colspan = 6
                                     }
                                     2 {
-                                        name = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:backend_layout.column.special6
+                                        name = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:backend_layout.column.special6
                                         colPos = 35
                                         colspan = 6
                                     }
@@ -92,12 +92,12 @@ mod {
                             8 {
                                 columns {
                                     1 {
-                                        name = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:backend_layout.column.special7
+                                        name = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:backend_layout.column.special7
                                         colPos = 36
                                         colspan = 6
                                     }
                                     2 {
-                                        name = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:backend_layout.column.special8
+                                        name = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:backend_layout.column.special8
                                         colPos = 37
                                         colspan = 6
                                     }
@@ -106,7 +106,7 @@ mod {
                             9 {
                                 columns {
                                     1 {
-                                        name = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:backend_layout.column.contentafter
+                                        name = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:backend_layout.column.contentafter
                                         colPos = 9
                                         colspan = 12
                                     }
@@ -115,17 +115,17 @@ mod {
                             10 {
                                 columns {
                                     1 {
-                                        name = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:backend_layout.column.footer1
+                                        name = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:backend_layout.column.footer1
                                         colPos = 10
                                         colspan = 4
                                     }
                                     2 {
-                                        name = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:backend_layout.column.footer2
+                                        name = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:backend_layout.column.footer2
                                         colPos = 11
                                         colspan = 4
                                     }
                                     3 {
-                                        name = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:backend_layout.column.footer3
+                                        name = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:backend_layout.column.footer3
                                         colPos = 12
                                         colspan = 4
                                     }
@@ -134,7 +134,7 @@ mod {
                         }
                     }
                 }
-                icon = EXT:bootstrap_package/Resources/Public/Icons/BackendLayouts/special_feature.svg
+                icon = EXT:uikit_package/Resources/Public/Icons/BackendLayouts/special_feature.svg
             }
         }
     }

@@ -24,17 +24,17 @@ TCEFORM {
                 uploads {
                     removeItems = 3
                     altLabels {
-                        0 = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:uploadslayout.default
-                        1 = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:uploadslayout.icons
-                        2 = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:uploadslayout.iconsandpreview
+                        0 = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:uploadslayout.default
+                        1 = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:uploadslayout.icons
+                        2 = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:uploadslayout.iconsandpreview
                     }
                 }
             }
         }
         table_class {
             addItems {
-                hover = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:tablelayout.hover
-                condensed = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:tablelayout.condensed
+                hover = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:tablelayout.hover
+                condensed = LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:tablelayout.condensed
             }
         }
         imageborder {

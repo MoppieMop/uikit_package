@@ -32,7 +32,7 @@ if (!is_array($GLOBALS['TCA']['tt_content']['types']['panel'])) {
     'tt_content',
     'CType',
     [
-        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.panel',
+        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:content_element.panel',
         'panel',
         'content-panel'
     ],
@@ -90,17 +90,17 @@ $GLOBALS['TCA']['tt_content']['columns'] = array_replace_recursive(
     $GLOBALS['TCA']['tt_content']['columns'],
     [
         'panel_class' => [
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.panel_class',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:field.panel_class',
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectSingle',
                 'items' => [
-                    ['LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:option.default', 'default'],
-                    ['LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:option.primary', 'primary'],
-                    ['LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:option.success', 'success'],
-                    ['LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:option.info', 'info'],
-                    ['LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:option.warning', 'warning'],
-                    ['LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:option.danger', 'danger'],
+                    ['LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:option.default', 'default'],
+                    ['LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:option.primary', 'primary'],
+                    ['LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:option.success', 'success'],
+                    ['LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:option.info', 'info'],
+                    ['LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:option.warning', 'warning'],
+                    ['LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:option.danger', 'danger'],
                 ],
             ],
         ],

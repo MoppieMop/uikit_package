@@ -22,7 +22,7 @@ class InstallService
     /**
      * @var string
      */
-    const EXT_KEY = 'bootstrap_package';
+    const EXT_KEY = 'uikit_package';
 
     /**
      * @var string
@@ -65,7 +65,7 @@ class InstallService
                 FlashMessage::class,
                 'There is already an ' . $filename . ' configuration file in the root directory, '
                 . 'please make sure that configuration files are protected and the url rewritings are set properly. '
-                . 'An example configuration is located at: "typo3conf/ext/bootstrap_package/Configuration/Server/_' . $filename . '"',
+                . 'An example configuration is located at: "typo3conf/ext/uikit_package/Configuration/Server/_' . $filename . '"',
                 'Webserver coniguration file "' . $filename . '" already exists',
                 FlashMessage::NOTICE,
                 true

@@ -2,19 +2,19 @@
 ### PAGETS ###
 ##############
 
-# cat=PageTS; type=boolean; label=LLL:EXT:bootstrap_package/Resources/Private/Language/ExtConfTemplate.xlf:pageTs.disablePageTsRTE
+# cat=PageTS; type=boolean; label=LLL:EXT:uikit_package/Resources/Private/Language/ExtConfTemplate.xlf:pageTs.disablePageTsRTE
 disablePageTsRTE = 0
 
-# cat=PageTS; type=boolean; label=LLL:EXT:bootstrap_package/Resources/Private/Language/ExtConfTemplate.xlf:pageTs.disablePageTsBackendLayouts
+# cat=PageTS; type=boolean; label=LLL:EXT:uikit_package/Resources/Private/Language/ExtConfTemplate.xlf:pageTs.disablePageTsBackendLayouts
 disablePageTsBackendLayouts = 0
 
-# cat=PageTS; type=boolean; label=LLL:EXT:bootstrap_package/Resources/Private/Language/ExtConfTemplate.xlf:pageTs.disablePageTsTCEMAIN
+# cat=PageTS; type=boolean; label=LLL:EXT:uikit_package/Resources/Private/Language/ExtConfTemplate.xlf:pageTs.disablePageTsTCEMAIN
 disablePageTsTCEMAIN = 0
 
-# cat=PageTS; type=boolean; label=LLL:EXT:bootstrap_package/Resources/Private/Language/ExtConfTemplate.xlf:pageTs.disablePageTsTCEFORM
+# cat=PageTS; type=boolean; label=LLL:EXT:uikit_package/Resources/Private/Language/ExtConfTemplate.xlf:pageTs.disablePageTsTCEFORM
 disablePageTsTCEFORM = 0
 
-# cat=PageTS; type=boolean; label=LLL:EXT:bootstrap_package/Resources/Private/Language/ExtConfTemplate.xlf:pageTs.disablePageTsContentElements
+# cat=PageTS; type=boolean; label=LLL:EXT:uikit_package/Resources/Private/Language/ExtConfTemplate.xlf:pageTs.disablePageTsContentElements
 disablePageTsContentElements = 0
 
 
@@ -22,8 +22,8 @@ disablePageTsContentElements = 0
 ### FEATURES ###
 ################
 
-# cat=Features; type=boolean; label=LLL:EXT:bootstrap_package/Resources/Private/Language/ExtConfTemplate.xlf:feature.disableCssProcessing
+# cat=Features; type=boolean; label=LLL:EXT:uikit_package/Resources/Private/Language/ExtConfTemplate.xlf:feature.disableCssProcessing
 disableCssProcessing = 0
 
-# cat=Features; type=boolean; label=LLL:EXT:bootstrap_package/Resources/Private/Language/ExtConfTemplate.xlf:feature.disableGoogleFontCaching
+# cat=Features; type=boolean; label=LLL:EXT:uikit_package/Resources/Private/Language/ExtConfTemplate.xlf:feature.disableGoogleFontCaching
 disableGoogleFontCaching = 0

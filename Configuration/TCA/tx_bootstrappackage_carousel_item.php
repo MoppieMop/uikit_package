@@ -20,7 +20,7 @@ return [
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
         'cruser_id' => 'cruser_id',
-        'title' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item',
+        'title' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item',
         'type' => 'item_type',
         'delete' => 'deleted',
         'versioningWS' => true,
@@ -79,11 +79,11 @@ return [
         'header' => [
             'showitem' => '
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,
-                --palette--;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.header;header,
+                --palette--;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.header;header,
                 nav_title,
                 text_color,
                 link,
-                --div--;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:tabs.background,
+                --div--;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:tabs.background,
                 background_color,
                 background_image,
                 background_image_options,
@@ -96,12 +96,12 @@ return [
         'call_to_action' => [
             'showitem' => '
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,
-                --palette--;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.header;header,
+                --palette--;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.header;header,
                 nav_title,
                 bodytext,
                 button_text,
                 link,
-                --div--;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:tabs.background,
+                --div--;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:tabs.background,
                 background_color,
                 background_image,
                 background_image_options,
@@ -118,7 +118,7 @@ return [
                 nav_title,
                 image,
                 link,
-                --div--;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:tabs.background,
+                --div--;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:tabs.background,
                 background_color,
                 background_image,
                 background_image_options,
@@ -131,13 +131,13 @@ return [
         'text_and_image' => [
             'showitem' => '
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,
-                --palette--;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.header;header,
+                --palette--;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.header;header,
                 nav_title,
                 bodytext,
                 text_color,
                 image,
                 link,
-                --div--;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:tabs.background,
+                --div--;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:tabs.background,
                 background_color,
                 background_image,
                 background_image_options,
@@ -168,7 +168,7 @@ return [
                 header;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header.ALT.html_formlabel,
                 nav_title,
                 bodytext;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:bodytext.ALT.html_formlabel,
-                --div--;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:tabs.background,
+                --div--;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:tabs.background,
                 background_color,
                 background_image,
                 background_image_options,
@@ -208,7 +208,7 @@ return [
         ],
         'visibility' => [
             'showitem' => '
-                hidden;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item
+                hidden;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item
             '
         ],
         // hidden but needs to be included all the time, so sys_language_uid is set correctly
@@ -220,7 +220,7 @@ return [
     'columns' => [
         'tt_content' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.tt_content',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.tt_content',
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectSingle',
@@ -237,32 +237,32 @@ return [
                 'renderType' => 'selectSingle',
                 'items' => [
                     [
-                        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.item_type.header',
+                        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.item_type.header',
                         'header',
                         'content-bootstrappackage-carousel-item-header'
                     ],
                     [
-                        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.item_type.calltoaction',
+                        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.item_type.calltoaction',
                         'call_to_action',
                         'content-bootstrappackage-carousel-item-calltoaction'
                     ],
                     [
-                        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.item_type.image',
+                        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.item_type.image',
                         'image',
                         'content-bootstrappackage-carousel-item-image'
                     ],
                     [
-                        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.item_type.textandimage',
+                        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.item_type.textandimage',
                         'text_and_image',
                         'content-bootstrappackage-carousel-item-textandimage'
                     ],
                     [
-                        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.item_type.backgroundimage',
+                        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.item_type.backgroundimage',
                         'background_image',
                         'content-bootstrappackage-carousel-item-backgroundimage'
                     ],
                     [
-                        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.item_type.html',
+                        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.item_type.html',
                         'html',
                         'content-bootstrappackage-carousel-item-html'
                     ],
@@ -358,7 +358,7 @@ return [
         ],
         'link' => [
             'exclude' => 1,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.link',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.link',
             'config' => [
                 'type' => 'input',
                 'renderType' => 'inputLink',
@@ -368,7 +368,7 @@ return [
                 'fieldControl' => [
                     'linkPopup' => [
                         'options' => [
-                            'title' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.link',
+                            'title' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.link',
                         ],
                     ],
                 ],
@@ -377,7 +377,7 @@ return [
         ],
         'header' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.header',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.header',
             'config' => [
                 'type' => 'input',
                 'size' => 50,
@@ -386,7 +386,7 @@ return [
         ],
         'header_layout' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.header_layout',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.header_layout',
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectSingle',
@@ -414,7 +414,7 @@ return [
         ],
         'header_class' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.header_class',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.header_class',
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectSingle',
@@ -431,7 +431,7 @@ return [
         ],
         'subheader' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.subheader',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.subheader',
             'config' => [
                 'type' => 'input',
                 'size' => 50,
@@ -440,7 +440,7 @@ return [
         ],
         'subheader_layout' => [
             'exclude' => 1,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.subheader_layout',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.subheader_layout',
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectSingle',
@@ -464,7 +464,7 @@ return [
         ],
         'subheader_class' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.subheader_class',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.subheader_class',
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectSingle',
@@ -481,7 +481,7 @@ return [
         ],
         'nav_title' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.nav_title',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.nav_title',
             'config' => [
                 'type' => 'input',
                 'size' => 50,
@@ -489,7 +489,7 @@ return [
             ],
         ],
         'bodytext' => [
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.bodytext',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.bodytext',
             'l10n_mode' => 'prefixLangTitle',
             'l10n_cat' => 'text',
             'config' => [
@@ -500,7 +500,7 @@ return [
             ],
         ],
         'button_text' => [
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.button_text',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.button_text',
             'config' => [
                 'type' => 'input',
                 'size' => 20,
@@ -509,7 +509,7 @@ return [
         ],
         'image' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.image',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.image',
             'config' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig(
                 'image',
                 [
@@ -561,7 +561,7 @@ return [
         ],
         'text_color' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.text_color',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.text_color',
             'config' => [
                 'type' => 'input',
                 'renderType' => 'colorpicker',
@@ -571,7 +571,7 @@ return [
         ],
         'background_color' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.background_color',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.background_color',
             'config' => [
                 'type' => 'input',
                 'renderType' => 'colorpicker',
@@ -581,7 +581,7 @@ return [
         ],
         'background_image' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.background_image',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:carousel_item.background_image',
             'config' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig(
                 'background_image',
                 [
@@ -632,11 +632,11 @@ return [
         ],
         'background_image_options' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.background_image_options',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:field.background_image_options',
             'config' => [
                 'type' => 'flex',
                 'ds' => [
-                    'default' => 'FILE:EXT:bootstrap_package/Configuration/FlexForms/BackgroundImage.xml',
+                    'default' => 'FILE:EXT:uikit_package/Configuration/FlexForms/BackgroundImage.xml',
                 ],
             ],
             'l10n_mode' => 'exclude',

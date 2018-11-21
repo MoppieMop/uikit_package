@@ -21,7 +21,7 @@ return [
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
         'cruser_id' => 'cruser_id',
-        'title' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:timeline_item',
+        'title' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:timeline_item',
         'delete' => 'deleted',
         'versioningWS' => true,
         'origUid' => 't3_origuid',
@@ -81,7 +81,7 @@ return [
         ],
         'visibility' => [
             'showitem' => '
-                hidden;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:timeline_item
+                hidden;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:timeline_item
             '
         ],
         // hidden but needs to be included all the time, so sys_language_uid is set correctly
@@ -93,7 +93,7 @@ return [
     'columns' => [
         'tt_content' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:timeline_item.tt_content',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:timeline_item.tt_content',
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectSingle',
@@ -188,7 +188,7 @@ return [
         ],
         'date' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:timeline_item.date',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:timeline_item.date',
             'config' => [
                 'type' => 'input',
                 'renderType' => 'inputDateTime',
@@ -200,7 +200,7 @@ return [
         ],
         'header' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:timeline_item.header',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:timeline_item.header',
             'config' => [
                 'type' => 'input',
                 'size' => 50,
@@ -208,7 +208,7 @@ return [
             ],
         ],
         'bodytext' => [
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:timeline_item.bodytext',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:timeline_item.bodytext',
             'l10n_mode' => 'prefixLangTitle',
             'l10n_cat' => 'text',
             'config' => [
@@ -222,7 +222,7 @@ return [
         ],
         'icon_file' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:timeline_item.icon_file',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:timeline_item.icon_file',
             'config' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig(
                 'icon_file',
                 [
@@ -272,7 +272,7 @@ return [
         ],
         'image' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:timeline_item.image',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:timeline_item.image',
             'config' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig(
                 'image',
                 [

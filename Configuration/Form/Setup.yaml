@@ -3,7 +3,7 @@ TYPO3:
         Form:
             persistenceManager:
                 allowedExtensionPaths:
-                    110: EXT:bootstrap_package/Resources/Private/Forms/
+                    110: EXT:uikit_package/Resources/Private/Forms/
             prototypes:
                 standard:
                     formElementsDefinition:
@@ -11,13 +11,13 @@ TYPO3:
                             renderingOptions:
                                 translation:
                                     translationFile:
-                                        110: 'EXT:bootstrap_package/Resources/Private/Language/locallang.xlf'
+                                        110: 'EXT:uikit_package/Resources/Private/Language/locallang.xlf'
                                 layoutRootPaths:
-                                    20: 'EXT:bootstrap_package/Resources/Private/Layouts/Form/'
+                                    20: 'EXT:uikit_package/Resources/Private/Layouts/Form/'
                                 templateRootPaths:
-                                    20: 'EXT:bootstrap_package/Resources/Private/Templates/Form/'
+                                    20: 'EXT:uikit_package/Resources/Private/Templates/Form/'
                                 partialRootPaths:
-                                    20: 'EXT:bootstrap_package/Resources/Private/Partials/Form/'
+                                    20: 'EXT:uikit_package/Resources/Private/Partials/Form/'
                         Checkbox:
                             properties:
                                 containerClassAttribute: 'custom-control custom-checkbox'

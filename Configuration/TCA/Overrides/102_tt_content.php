@@ -16,7 +16,7 @@ defined('TYPO3_MODE') || die();
     'tt_content',
     'CType',
     [
-        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:theme_name',
+        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:theme_name',
         '--div--'
     ],
     '--div--',

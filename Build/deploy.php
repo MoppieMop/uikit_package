@@ -15,8 +15,8 @@ require 'recipe/common.php';
 desc('Prepare Bootstrap Package');
 task('typo3:prepare', function () {
     run('rm -rf {{release_path}}/../tmp');
-    run('mkdir -p {{release_path}}/../tmp/extensions/bootstrap_package');
-    run('mv {{release_path}}/{,.[^.]}* {{release_path}}/../tmp/extensions/bootstrap_package');
+    run('mkdir -p {{release_path}}/../tmp/extensions/uikit_package');
+    run('mv {{release_path}}/{,.[^.]}* {{release_path}}/../tmp/extensions/uikit_package');
     run('mkdir -p {{release_path}}/extensions');
     run('mv {{release_path}}/../tmp/extensions {{release_path}}');
     run('rm -rf {{release_path}}/../tmp');
@@ -77,7 +77,7 @@ set('allow_anonymous_stats', false);
 
 // Hosts
 host(getenv('DEPLOYER_HOST'))
-    ->set('repository', 'https://github.com/benjaminkott/bootstrap_package')
+    ->set('repository', 'https://github.com/benjaminkott/uikit_package')
     ->user(getenv('DEPLOYER_USER'))
     ->port('22')
     ->set('keep_releases', '3')

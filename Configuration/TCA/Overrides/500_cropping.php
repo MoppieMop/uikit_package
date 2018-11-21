@@ -13,22 +13,22 @@ defined('TYPO3_MODE') || die();
  * Add crop variants
  */
 $defaultCropSettings = [
-    'title' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:option.default',
+    'title' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:option.default',
     'allowedAspectRatios' => [
         '16:9' => [
-            'title' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:ratio.16_9',
+            'title' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:ratio.16_9',
             'value' => 16 / 9
         ],
         '4:3' => [
-            'title' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:ratio.4_3',
+            'title' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:ratio.4_3',
             'value' => 4 / 3
         ],
         '1:1' => [
-            'title' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:ratio.1_1',
+            'title' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:ratio.1_1',
             'value' => 1.0
         ],
         'NaN' => [
-            'title' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:ratio.free',
+            'title' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:ratio.free',
             'value' => 0.0
         ],
     ],
@@ -41,13 +41,13 @@ $defaultCropSettings = [
     ]
 ];
 $largeCropSettings = $defaultCropSettings;
-$largeCropSettings['title'] = 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:option.large';
+$largeCropSettings['title'] = 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:option.large';
 $mediumCropSettings = $defaultCropSettings;
-$mediumCropSettings['title'] = 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:option.medium';
+$mediumCropSettings['title'] = 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:option.medium';
 $smallCropSettings = $defaultCropSettings;
-$smallCropSettings['title'] = 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:option.small';
+$smallCropSettings['title'] = 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:option.small';
 $extrasmallCropSettings = $defaultCropSettings;
-$extrasmallCropSettings['title'] = 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:option.extrasmall';
+$extrasmallCropSettings['title'] = 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:option.extrasmall';
 
 /***************
  * Content Element Background Image

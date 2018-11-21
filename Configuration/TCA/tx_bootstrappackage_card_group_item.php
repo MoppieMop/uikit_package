@@ -20,7 +20,7 @@ return [
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
         'cruser_id' => 'cruser_id',
-        'title' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:card_group_item',
+        'title' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:card_group_item',
         'delete' => 'deleted',
         'versioningWS' => true,
         'origUid' => 't3_origuid',
@@ -50,10 +50,10 @@ return [
         '1' => [
             'showitem' => '
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,
-                --palette--;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:card_group_item.header;header,
+                --palette--;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:card_group_item.header;header,
                 image,
                 bodytext,
-                --palette--;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:card_group_item.link;link,
+                --palette--;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:card_group_item.link;link,
                 icon_file,
                 --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.access,
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.visibility;visibility,
@@ -95,7 +95,7 @@ return [
         ],
         'visibility' => [
             'showitem' => '
-                hidden;LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:card_group_item
+                hidden;LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:card_group_item
             '
         ],
         // hidden but needs to be included all the time, so sys_language_uid is set correctly
@@ -107,7 +107,7 @@ return [
     'columns' => [
         'tt_content' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:card_group_item.tt_content',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:card_group_item.tt_content',
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectSingle',
@@ -202,7 +202,7 @@ return [
         ],
         'header' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:card_group_item.header',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:card_group_item.header',
             'config' => [
                 'type' => 'input',
                 'size' => 50,
@@ -211,7 +211,7 @@ return [
         ],
         'subheader' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:card_group_item.subheader',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:card_group_item.subheader',
             'config' => [
                 'type' => 'input',
                 'size' => 50,
@@ -220,7 +220,7 @@ return [
         ],
         'image' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:card_group_item.image',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:card_group_item.image',
             'config' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig(
                 'image',
                 [
@@ -271,7 +271,7 @@ return [
             ),
         ],
         'bodytext' => [
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:card_group_item.bodytext',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:card_group_item.bodytext',
             'exclude' => true,
             'config' => [
                 'type' => 'text',
@@ -284,7 +284,7 @@ return [
         ],
         'link' => [
             'exclude' => 1,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:card_group_item.link',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:card_group_item.link',
             'config' => [
                 'type' => 'input',
                 'renderType' => 'inputLink',
@@ -294,7 +294,7 @@ return [
                 'fieldControl' => [
                     'linkPopup' => [
                         'options' => [
-                            'title' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:card_group_item.link',
+                            'title' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:card_group_item.link',
                         ],
                     ],
                 ],
@@ -303,7 +303,7 @@ return [
         ],
         'link_title' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:card_group_item.link_title',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:card_group_item.link_title',
             'config' => [
                 'type' => 'input',
                 'size' => 50,
@@ -312,7 +312,7 @@ return [
         ],
         'link_icon' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:card_group_item.link_icon',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:card_group_item.link_icon',
             'config' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig(
                 'link_icon',
                 [
@@ -361,7 +361,7 @@ return [
         ],
         'link_class' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:card_group_item.link_class',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:card_group_item.link_class',
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectSingle',

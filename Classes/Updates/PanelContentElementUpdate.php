@@ -39,7 +39,7 @@ class PanelContentElementUpdate extends \TYPO3\CMS\Install\Updates\AbstractUpdat
         $elementCount = $queryBuilder->count('uid')
             ->from('tt_content')
             ->where(
-                $queryBuilder->expr()->eq('CType', $queryBuilder->createNamedParameter('bootstrap_package_panel', \PDO::PARAM_STR))
+                $queryBuilder->expr()->eq('CType', $queryBuilder->createNamedParameter('uikit_package_panel', \PDO::PARAM_STR))
             )
             ->execute()->fetchColumn(0);
         return (bool)$elementCount;
@@ -60,7 +60,7 @@ class PanelContentElementUpdate extends \TYPO3\CMS\Install\Updates\AbstractUpdat
         $statement = $queryBuilder->select('uid', 'layout')
             ->from('tt_content')
             ->where(
-                $queryBuilder->expr()->eq('CType', $queryBuilder->createNamedParameter('bootstrap_package_panel', \PDO::PARAM_STR))
+                $queryBuilder->expr()->eq('CType', $queryBuilder->createNamedParameter('uikit_package_panel', \PDO::PARAM_STR))
             )
             ->execute();
         while ($record = $statement->fetch()) {

@@ -7,28 +7,28 @@
         <sDEF>
             <ROOT>
                 <TCEforms>
-                    <sheetTitle>LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:settings</sheetTitle>
+                    <sheetTitle>LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:settings</sheetTitle>
                 </TCEforms>
                 <type>array</type>
                 <el>
                     <align>
                         <TCEforms>
-                            <label>LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.card_group.align</label>
+                            <label>LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:content_element.card_group.align</label>
                             <config>
                                 <type>select</type>
                                 <renderType>selectSingle</renderType>
                                 <default>left</default>
                                 <items type="array">
                                     <numIndex index="0" type="array">
-                                        <numIndex index="0">LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.card_group.align.left</numIndex>
+                                        <numIndex index="0">LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:content_element.card_group.align.left</numIndex>
                                         <numIndex index="1">left</numIndex>
                                     </numIndex>
                                     <numIndex index="1" type="array">
-                                        <numIndex index="0">LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.card_group.align.center</numIndex>
+                                        <numIndex index="0">LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:content_element.card_group.align.center</numIndex>
                                         <numIndex index="1">center</numIndex>
                                     </numIndex>
                                     <numIndex index="2" type="array">
-                                        <numIndex index="0">LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.card_group.align.right</numIndex>
+                                        <numIndex index="0">LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:content_element.card_group.align.right</numIndex>
                                         <numIndex index="1">right</numIndex>
                                     </numIndex>
                                 </items>
@@ -37,7 +37,7 @@
                     </align>
                     <columns>
                         <TCEforms>
-                            <label>LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.card_group.columns</label>
+                            <label>LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:content_element.card_group.columns</label>
                             <config>
                                 <type>select</type>
                                 <renderType>selectSingle</renderType>

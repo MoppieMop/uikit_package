@@ -32,7 +32,7 @@ if (!is_array($GLOBALS['TCA']['tt_content']['types']['icon_group'])) {
     'tt_content',
     'CType',
     [
-        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.icon_group',
+        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:content_element.icon_group',
         'icon_group',
         'content-bootstrappackage-icon-group'
     ],
@@ -80,7 +80,7 @@ $GLOBALS['TCA']['tt_content']['columns'] = array_replace_recursive(
     $GLOBALS['TCA']['tt_content']['columns'],
     [
         'tx_bootstrappackage_icon_group_item' => [
-            'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:icon_group_item',
+            'label' => 'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:icon_group_item',
             'config' => [
                 'type' => 'inline',
                 'foreign_table' => 'tx_bootstrappackage_icon_group_item',

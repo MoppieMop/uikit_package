@@ -21,8 +21,8 @@ use TYPO3\CMS\Frontend\ContentObject\DataProcessorInterface;
  * 10 {
  *   files {
  *     0.field = image
- *     1 = EXT:bootstrap_package/Resources/Public/Images/Icons/icon-1.png
- *     circle = EXT:bootstrap_package/Resources/Public/Images/Icons/icon-circle.png
+ *     1 = EXT:uikit_package/Resources/Public/Images/Icons/icon-1.png
+ *     circle = EXT:uikit_package/Resources/Public/Images/Icons/icon-circle.png
  *   }
  *   as = staticFiles
  * }

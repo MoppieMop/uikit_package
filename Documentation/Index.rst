@@ -15,7 +15,7 @@ Bootstrap Package
 .. only:: html
 
     :Classification:
-        bootstrap_package
+        uikit_package
 
     :Version:
         |release|

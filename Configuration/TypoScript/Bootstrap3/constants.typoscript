@@ -53,7 +53,7 @@
 # customsubcategory=400=Footer
 # customsubcategory=401=Footer Meta
 
-plugin.bootstrap_package {
+plugin.uikit_package {
     settings {
         less {
 

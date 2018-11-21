@@ -41,7 +41,7 @@
 # customsubcategory=333=Code
 # customsubcategory=334=Printing
 
-plugin.bootstrap_package {
+plugin.uikit_package {
     settings {
         scss {
 

@@ -16,14 +16,14 @@
 ########################
 ### CONTENT ELEMENTS ###
 ########################
-plugin.bootstrap_package_contentelements {
+plugin.uikit_package_contentelements {
     view {
         # cat=bootstrap package: content elements/100_contentelement/001_layoutRootPath; type=string; label=Layout Root Path: Path to layouts
-        layoutRootPath = EXT:bootstrap_package/Resources/Private/Layouts/ContentElements/
+        layoutRootPath = EXT:uikit_package/Resources/Private/Layouts/ContentElements/
         # cat=bootstrap package: content elements/100_contentelement/002_partialRootPath; type=string; label=Partial Root Path: Path to partials
-        partialRootPath = EXT:bootstrap_package/Resources/Private/Partials/ContentElements/
+        partialRootPath = EXT:uikit_package/Resources/Private/Partials/ContentElements/
         # cat=bootstrap package: content elements/100_contentelement/003_templateRootPath; type=string; label=Template Root Path: Path to templates
-        templateRootPath = EXT:bootstrap_package/Resources/Private/Templates/ContentElements/
+        templateRootPath = EXT:uikit_package/Resources/Private/Templates/ContentElements/
     }
     header {
         # cat=bootstrap package: content elements/110_contentelement/001_defaultHeaderType; type=int[1-5]; label=Default Header type: Enter the number of the header layout to be used by default

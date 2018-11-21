@@ -32,7 +32,7 @@ if (!is_array($GLOBALS['TCA']['tt_content']['types']['textteaser'])) {
     'tt_content',
     'CType',
     [
-        'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.textteaser',
+        'LLL:EXT:uikit_package/Resources/Private/Language/Backend.xlf:content_element.textteaser',
         'textteaser',
         'content-text-teaser'
     ],
